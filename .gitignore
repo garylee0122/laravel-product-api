@@ -1,0 +1,75 @@
+# =====================
+# Laravel 專案
+# =====================
+laravel/*/vendor/
+laravel/*/node_modules/
+laravel/*/public/build/
+laravel/*/public/hot/
+laravel/*/public/storage/
+laravel/*/storage/*.key
+laravel/*/storage/pail/
+laravel/*/.env
+laravel/*/.env.backup
+laravel/*/.env.production
+laravel/*/.phpactor.json
+laravel/*/.phpunit.result.cache
+laravel/*/Homestead.json
+laravel/*/Homestead.yaml
+laravel/*/storage/framework/views/*
+laravel/*/storage/framework/cache/*
+laravel/*/storage/framework/sessions/*
+laravel/*/storage/logs/*
+laravel/*/database/*.sqlite
+
+# =====================
+# ASP.NET 專案
+# =====================
+aspnet/*/bin/
+aspnet/*/obj/
+aspnet/*/.vs/
+aspnet/*/*.user
+aspnet/*/*.suo
+aspnet/*/*.cache
+aspnet/*/*.db
+aspnet/*/*.sqlite
+aspnet/*/*.sqlite3
+*.dll
+# temp build
+temp_build/
+
+# =====================
+# Node / npm / front-end
+# =====================
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+
+# =====================
+# Docker / CI/CD
+# =====================
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+**/.docker/
+**/.env.ci
+**/*.log
+**/tmp/
+**/.cache/
+
+# =====================
+# IDE / Editor
+# =====================
+.idea/
+.vscode/
+.zed/
+.fleet/
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# OS 系統
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
